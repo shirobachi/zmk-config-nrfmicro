@@ -75,11 +75,11 @@
  * .----------------------------------------------------------------------------------------------------------------------.
  *//* FIXME boot and reset are not yet locale aware */
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans       &trans      &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans       &trans      &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans       &trans      &trans
-&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans          &trans  &trans  &trans  &bootloader  &sys_reset  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans          &trans  &trans  &trans       &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
