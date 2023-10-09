@@ -31,11 +31,11 @@
  */
 
             bindings = <
-&kp KP_EQUAL  &kp NUMBER_1  &kp N2      &kp N3         &kp N4  &kp N5  &kp LEFT                                             &kp END            &kp N6  &kp N7  &kp N8     &kp N9    &kp N0           &kp BACKSPACE
-&kp DELETE    &kp Q         &kp W       &kp E          &kp R   &kp T   &kp LEFT_BRACKET                                     &kp RIGHT_BRACKET  &kp Y   &kp U   &kp I      &kp O     &kp P            &kp BSLH
-&kp RET       &kp A         &kp S       &kp D          &kp F   &kp G   &kp LS(LC(LA(LMETA)))                                &kp LA(LS(LCTRL))  &kp H   &kp J   &kp K      &kp L     &kp SEMI         &mt LMETA APOS
-&kp LSHFT     &mt LCTRL Z   &kp X       &kp C          &kp V   &kp B                          &kp SPACE      &mt LCTRL ESC                     &kp N   &kp M   &kp COMMA  &kp DOT   &mt RCTRL SLASH  &kp RSHFT
-&kp LCTRL     &kp LMETA     &caps_word  &kp RIGHT_ALT  &mo 1           &kp LEFT_ALT           &mt LMETA TAB  &kp RETURN     &kp LEFT_ALT               &mo 2   &kp SLASH  &kp LEFT  &kp DOWN         &kp RIGHT_ARROW
+&kp KP_EQUAL  &kp NUMBER_1  &kp N2      &kp N3         &kp N4        &kp N5  &kp LEFT                                                       &kp END            &kp N6  &kp N7        &kp N8     &kp N9    &kp N0           &kp BACKSPACE
+&kp DELETE    &kp Q         &kp W       &kp E          &kp R         &kp T   &kp LEFT_BRACKET                                               &kp RIGHT_BRACKET  &kp Y   &kp U         &kp I      &kp O     &kp P            &kp BSLH
+&kp RET       &kp A         &kp S       &kp D          &kp F         &kp G   &kp LS(LC(LA(LMETA)))                                          &kp LA(LS(LCTRL))  &kp H   &kp J         &kp K      &kp L     &kp SEMI         &mt LMETA APOS
+&kp LSHFT     &mt LCTRL Z   &kp X       &kp C          &kp V         &kp B                          &kp SPACE         &kp SPACE                                &kp N   &kp M         &kp COMMA  &kp DOT   &mt RCTRL SLASH  &kp RSHFT
+&kp LCTRL     &kp LMETA     &caps_word  &kp RIGHT_ALT  &kp LEFT_ALT          &mt LCTRL TAB          &mt LMETA ESCAPE  &mt LEFT_META RETURN  &mt LCTRL RETURN           &kp LEFT_ALT  &kp SLASH  &kp LEFT  &kp DOWN         &kp RIGHT_ARROW
             >;
         };
 
