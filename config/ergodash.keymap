@@ -6,6 +6,7 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/keys.h>
 
 #define DEFAULT 0
 #define LOWER   1
@@ -31,11 +32,11 @@
  */
 
             bindings = <
-&kp KP_EQUAL   &kp NUMBER_1  &kp N2    &kp N3     &kp N4    &kp N5     &kp LEFT                            &kp MINUS          &kp N0           &kp N9    &kp N8     &kp N7    &kp N6     &kp RIGHT
-&kp DELETE     &kp Q         &kp W     &kp E      &kp R     &kp T      &to 1                               &kp BSLH           &kp P            &kp O     &kp I      &kp U     &kp Y      &to 1
-&kp BACKSPACE  &kp A         &kp S     &kp D      &kp F     &kp G      &mt LA(LS(LG(LCTRL))) LEFT_BRACKET  &mt LEFT_META SQT  &lt 2 SEMICOLON  &kp L     &kp K      &kp J     &kp H      &mt LS(LA(LCTRL)) RIGHT_BRACKET
-&kp LSHFT      &mt LCTRL Z   &kp X     &kp C      &kp V     &kp B      &mt LCTRL TAB                       &kp LEFT_SHIFT     &mt LCTRL SLASH  &kp DOT   &kp COMMA  &kp M     &kp N      &mt LCTRL RETURN
-&mo 1          &caps_word    &kp LEFT  &kp RIGHT  &kp LALT  &kp SPACE  &mt LEFT_META ESCAPE                &kp RIGHT          &kp UP           &kp DOWN  &kp LEFT   &kp LALT  &kp SPACE  &mt LEFT_META RETURN
+&kp KP_EQUAL   &kp NUMBER_1  &kp N2    &kp N3     &kp N4    &kp N5     &kp LEFT                            &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7
+&kp DELETE     &kp Q         &kp W     &kp E      &kp R     &kp T      &to 1                               &kp Q   &kp W   &kp E   &kp R   &kp T   &kp Y   &kp U
+&kp BACKSPACE  &kp A         &kp S     &kp D      &kp F     &kp G      &mt LA(LS(LG(LCTRL))) LEFT_BRACKET  &kp A   &kp S   &kp D   &kp F   &kp G   &kp H   &kp J
+&kp LSHFT      &mt LCTRL Z   &kp X     &kp C      &kp V     &kp B      &mt LCTRL TAB                       &kp N1  &kp Z   &kp X   &kp C   &kp V   &kp B   &kp N
+&mo 1          &caps_word    &kp LEFT  &kp RIGHT  &kp LALT  &kp SPACE  &mt LEFT_META ESCAPE                &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kt NUMBER_0
             >;
         };
 
